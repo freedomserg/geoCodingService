@@ -8,7 +8,7 @@ import java.util.function.Function;
 
 public class GeoCodingService implements Function<String, CityCoordinatesEntity> {
 
-    private final String API_KEY = "AIzaSyDhlkpcEBoxdIv_Xnw6pv5fyF7qLZOgRxE";
+    private static final String API_KEY = "AIzaSyDhlkpcEBoxdIv_Xnw6pv5fyF7qLZOgRxE";
 
     @Override
     public CityCoordinatesEntity apply(String city) {
